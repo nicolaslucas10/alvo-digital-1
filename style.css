@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    }
+
+    .full-height {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;     /* Centraliza na vertical */
+    background-color: #f8f9fa;
+    }
+
+    .navbar {
+        width: 90%; /* ocupa 90% da largura da tela */
+        max-width: 1200px; /* limite máximo */
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+    .navbar-brand img {
+    height: 40px;
+    }
