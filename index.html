@@ -5,70 +5,51 @@
   <title>Alvo Digital</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body, html {
-      height: 100%;
-      margin: 0;
-    }
 
-    .centered-navbar {
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .navbar {
-      width: 100%;
-      max-width: 800px;
-    }
-
-    .navbar-brand img {
-      height: 40px;
-    }
-  </style>
 </head>
 <body>
 
-<div class="centered-navbar">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
-      <!-- Substituir o texto por imagem -->
       <a class="navbar-brand" href="#">
         <img src="imagens/logoalvocortada.PNG" alt="Logo">
       </a>
-
+  
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+  
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="#">Lar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Sobre Nós</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else</a></li>
-            </ul>
+            <a class="nav-link" href="#">Contato</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- CONTEÚDO PRINCIPAL -->
+  <section class="hero d-flex flex-column justify-content-center align-items-center text-center">
+    <h1 class="display-4">Bem-vindo à Alvo Digital</h1>
+    <p class="lead">Transformamos suas ideias em resultados digitais incríveis!</p>
+    <a href="#" class="btn btn-light mt-3">Saiba Mais</a>
+  </section>
+  
+  <footer class="bg-dark text-center text-white py-4">
+    <div class="container">
+      <p class="mb-0">© 2025 <strong>Alvo Digital</strong>. Todos os direitos reservados.</p>
+      <small class="d-block">Desenvolvido por <strong>Alvo Digital</strong></small>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

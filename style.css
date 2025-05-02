@@ -1,26 +1,45 @@
-@charset "UTF-8";
-
+/* Zerar margens */
 html, body {
-    height: 100%;
-    margin: 0;
-    }
+  height: 100%;
+  margin: 0;
+}
 
-    .full-height {
-    height: 100vh;
-    display: flex;
-    justify-content: center; /* Centraliza na horizontal */
-    align-items: center;     /* Centraliza na vertical */
-    background-color: #f8f9fa;
-    }
+/* HERO ocupando toda altura */
+.hero {
+  min-height: 100vh;
+  padding-top: 80px; /* espaço para a navbar */
+  background: linear-gradient(135deg, #BB73DD 0%, #8B4AC4 100%);
+  color: white;
+}
 
-    .navbar {
-        width: 90%; /* ocupa 90% da largura da tela */
-        max-width: 1200px; /* limite máximo */
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        padding: 10px;
-      }
+/* Navbar ajustes */
+.navbar {
+  background-color: #ffffff !important;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto; /* CENTRALIZAR */
+  max-width: 1200px; /* Largura máxima */
+}
 
-    .navbar-brand img {
-    height: 40px;
-    }
+/* Imagem da logo */
+.navbar-brand img {
+  height: 50px;
+}
+
+/* Botão personalizado */
+.btn-light {
+  background-color: white;
+  color: #8B4AC4;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #eee;
+  color: #6a3ca0;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+}
