@@ -8,38 +8,58 @@ html, body {
 .hero {
   min-height: 100vh;
   padding-top: 80px; /* espaço para a navbar */
-  background: linear-gradient(135deg, #BB73DD 0%, #8B4AC4 100%);
+  background: linear-gradient(135deg, #071136 0%, #071136 100%);
   color: white;
 }
 
 /* Navbar ajustes */
 .navbar {
-  background-color: #ffffff !important;
-  border: 1px solid #ccc;
+  background-color: #071136 !important;
+  border: 4px solid #BB73DD;
   border-radius: 10px;
   padding: 10px;
   margin: 10px auto; /* CENTRALIZAR */
   max-width: 1200px; /* Largura máxima */
 }
+.bg-personalizada {
+  background-color: #071136; 
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23BB73DD' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.custom-toggler {
+  border-color: #ffffff; /* Cor da borda do botão */
+  background-color: #ffffff; /* Cor de fundo do botão */
+}
+
+.navbar .nav-link {
+  color: #BB73DD !important; /* ou outro tom claro: branco, lilás etc. */
+}
+.navbar .nav-link:hover {
+  color: #ffffff !important;
+}
 
 /* Imagem da logo */
 .navbar-brand img {
   height: 50px;
+  border: 1px solid #BB73DD;
 }
 
 /* Botão personalizado */
 .btn-light {
   background-color: white;
-  color: #8B4AC4;
+  color: #071136;
   border: none;
 }
 
 .btn-light:hover {
   background-color: #eee;
-  color: #6a3ca0;
+  color: #071136;
 }
 
 /* Footer */
 footer {
-  background-color: #222;
+  background-color: #BB73DD;
 }
